@@ -1,0 +1,95 @@
+.image{
+    position: relative;
+    height:100vh;
+    width:100%;
+}
+.topleft{
+    position: absolute;
+    top:8px;
+    left:16px;
+    color:white;
+}
+.bottomleft{
+    position:absolute;
+    bottom:8px;
+    left:16px;
+    color:white;
+}
+.bottomright{
+    position: absolute;
+    bottom:8px;
+    right:16px;
+    color:wheat;
+}
+ul{
+    display: flex;
+}
+li{
+    flex: auto;
+    list-style: none;
+}
+.list{
+    top:8px;
+    position: absolute;
+    left:35%;
+    width:30%;
+    justify-content: space-between;
+    color:white;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 120px;
+    text-align: justify;
+    text-align-last: center;
+    gap:30px;
+    font-style:oblique;
+}
+.text{
+    position: absolute;
+    top:30%;
+    left:47.5%;
+    color:white;
+    text-align: justify;
+    text-align-last: center;
+}
+.but{
+    position: absolute;
+    top:70%;
+    left:44.5%;
+    display: inline-block;
+    text-align: justify;
+    text-align-last: center;
+}
+.buton{
+    position: absolute;
+    right:20px;
+    top:20px;
+}
+.btn1{
+    background-color:#fe2c54;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    border-bottom-left-radius:25px;
+    height:50px;
+    color:white;
+    font-weight: bold;
+    font-style: normal;
+    border-style: none;
+}
+.btn2{
+    background-color:blue;
+    color:white;
+    height:35px;
+    border-style: none;
+}
+.btn3{
+    background-color:green;
+    color:white;
+    height:35px;
+    border-style: none;
+}
